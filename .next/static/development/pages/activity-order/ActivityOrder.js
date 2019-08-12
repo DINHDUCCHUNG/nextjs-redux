@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/activity-order/ActivityOrder.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\activity-order\\ActivityOrder.js"],{
 
 /***/ "./actions/ActivityOrder.js":
 /*!**********************************!*\
@@ -42,7 +42,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(moment__WEBPACK_IMPORTED_MODULE_6__);
 
 
-var _jsxFileName = "/home/pilot/JS/with-redux-thunk-app/components/ActivityOrder/ActivityOrderComponent.js";
 
 
 
@@ -66,108 +65,32 @@ var ActivityOrder = function ActivityOrder(props) {
       activityOrderCode: props.activityOrderCode
     }));
   }, [props.activityOrderCode]);
-  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22
-    },
-    __self: this
+  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: "layout-content"
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-    className: "layout-content",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23
-    },
-    __self: this
+    className: "container-fluid flex-grow-1 container-p-y"
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-    className: "container-fluid flex-grow-1 container-p-y",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-    className: "activity-order-code",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25
-    },
-    __self: this
+    className: "activity-order-code"
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("table", {
-    className: "table table-striped",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("thead", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("tr", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("th", {
+    className: "table table-striped"
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("thead", null, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("tr", null, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("th", {
     scope: "col",
     style: {
       width: '70%'
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29
-    },
-    __self: this
+    }
   }, "Ho\u1EA1t \u0111\u1ED9ng"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("th", {
     scope: "col",
     style: {
       width: '30%'
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32
-    },
-    __self: this
-  }, "Th\u1EDDi gian"))), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("tbody", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37
-    },
-    __self: this
-  }, state.activityOrderCode.map(function (act, index) {
+    }
+  }, "Th\u1EDDi gian"))), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("tbody", null, state.activityOrderCode.map(function (act, index) {
     return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("tr", {
-      key: act.id,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 40
-      },
-      __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("td", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 41
-      },
-      __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("span", {
+      key: act.id
+    }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("td", null, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("span", {
       dangerouslySetInnerHTML: {
         __html: act.message
-      },
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 42
-      },
-      __self: this
-    })), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("td", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 48
-      },
-      __self: this
-    }, moment__WEBPACK_IMPORTED_MODULE_6___default()(act.createdAt).format('hh:mm [ngày] LL')));
+      }
+    })), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("td", null, moment__WEBPACK_IMPORTED_MODULE_6___default()(act.createdAt).format('hh:mm [ngày] LL')));
   })))))));
 };
 
@@ -20401,10 +20324,10 @@ webpackContext.id = "./node_modules/moment/locale sync recursive ^\\.\\/.*$";
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Factivity-order%2FActivityOrder&absolutePagePath=%2Fhome%2Fpilot%2FJS%2Fwith-redux-thunk-app%2Fpages%2Factivity-order%2FActivityOrder.js!./":
-/*!**********************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Factivity-order%2FActivityOrder&absolutePagePath=%2Fhome%2Fpilot%2FJS%2Fwith-redux-thunk-app%2Fpages%2Factivity-order%2FActivityOrder.js ***!
-  \**********************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Factivity-order%2FActivityOrder&absolutePagePath=d%3A%5COJT%5Cnextjs-redux%5Cpages%5Cactivity-order%5CActivityOrder.js!./":
+/*!****************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Factivity-order%2FActivityOrder&absolutePagePath=d%3A%5COJT%5Cnextjs-redux%5Cpages%5Cactivity-order%5CActivityOrder.js ***!
+  \****************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20426,23 +20349,23 @@ webpackContext.id = "./node_modules/moment/locale sync recursive ^\\.\\/.*$";
 
 /***/ "./node_modules/object-assign/index.js":
 /*!***************************************************************************************************!*\
-  !*** delegated ./node_modules/object-assign/index.js from dll-reference dll_129a35c7ec57967eb265 ***!
+  !*** delegated ./node_modules/object-assign/index.js from dll-reference dll_01f9a3fa864a7b7414d8 ***!
   \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_129a35c7ec57967eb265 */ "dll-reference dll_129a35c7ec57967eb265"))("./node_modules/object-assign/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_01f9a3fa864a7b7414d8 */ "dll-reference dll_01f9a3fa864a7b7414d8"))("./node_modules/object-assign/index.js");
 
 /***/ }),
 
 /***/ "./node_modules/prop-types/checkPropTypes.js":
 /*!*********************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_129a35c7ec57967eb265 ***!
+  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_01f9a3fa864a7b7414d8 ***!
   \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_129a35c7ec57967eb265 */ "dll-reference dll_129a35c7ec57967eb265"))("./node_modules/prop-types/checkPropTypes.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_01f9a3fa864a7b7414d8 */ "dll-reference dll_01f9a3fa864a7b7414d8"))("./node_modules/prop-types/checkPropTypes.js");
 
 /***/ }),
 
@@ -21077,12 +21000,12 @@ if (true) {
 
 /***/ "./node_modules/prop-types/lib/ReactPropTypesSecret.js":
 /*!*******************************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_129a35c7ec57967eb265 ***!
+  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_01f9a3fa864a7b7414d8 ***!
   \*******************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_129a35c7ec57967eb265 */ "dll-reference dll_129a35c7ec57967eb265"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_01f9a3fa864a7b7414d8 */ "dll-reference dll_01f9a3fa864a7b7414d8"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
 
 /***/ }),
 
@@ -22587,12 +22510,12 @@ function _objectWithoutPropertiesLoose(source, excluded) {
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_129a35c7ec57967eb265 ***!
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_01f9a3fa864a7b7414d8 ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_129a35c7ec57967eb265 */ "dll-reference dll_129a35c7ec57967eb265"))("./node_modules/react/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_01f9a3fa864a7b7414d8 */ "dll-reference dll_01f9a3fa864a7b7414d8"))("./node_modules/react/index.js");
 
 /***/ }),
 
@@ -23387,52 +23310,39 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_ActivityOrder_ActivityOrderComponent__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/ActivityOrder/ActivityOrderComponent */ "./components/ActivityOrder/ActivityOrderComponent.js");
-var _jsxFileName = "/home/pilot/JS/with-redux-thunk-app/pages/activity-order/ActivityOrder.js";
 
 
 
 var ActivityOrder = function ActivityOrder(props) {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ActivityOrder_ActivityOrderComponent__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
-  }));
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ActivityOrder_ActivityOrderComponent__WEBPACK_IMPORTED_MODULE_1__["default"], null));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (ActivityOrder);
 
 /***/ }),
 
-/***/ 1:
-/*!**************************************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Factivity-order%2FActivityOrder&absolutePagePath=%2Fhome%2Fpilot%2FJS%2Fwith-redux-thunk-app%2Fpages%2Factivity-order%2FActivityOrder.js ***!
-  \**************************************************************************************************************************************************************************************/
+/***/ 0:
+/*!********************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Factivity-order%2FActivityOrder&absolutePagePath=d%3A%5COJT%5Cnextjs-redux%5Cpages%5Cactivity-order%5CActivityOrder.js ***!
+  \********************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Factivity-order%2FActivityOrder&absolutePagePath=%2Fhome%2Fpilot%2FJS%2Fwith-redux-thunk-app%2Fpages%2Factivity-order%2FActivityOrder.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Factivity-order%2FActivityOrder&absolutePagePath=%2Fhome%2Fpilot%2FJS%2Fwith-redux-thunk-app%2Fpages%2Factivity-order%2FActivityOrder.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Factivity-order%2FActivityOrder&absolutePagePath=d%3A%5COJT%5Cnextjs-redux%5Cpages%5Cactivity-order%5CActivityOrder.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Factivity-order%2FActivityOrder&absolutePagePath=d%3A%5COJT%5Cnextjs-redux%5Cpages%5Cactivity-order%5CActivityOrder.js!./");
 
 
 /***/ }),
 
-/***/ "dll-reference dll_129a35c7ec57967eb265":
+/***/ "dll-reference dll_01f9a3fa864a7b7414d8":
 /*!*******************************************!*\
-  !*** external "dll_129a35c7ec57967eb265" ***!
+  !*** external "dll_01f9a3fa864a7b7414d8" ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = dll_129a35c7ec57967eb265;
+module.exports = dll_01f9a3fa864a7b7414d8;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js","styles"]]]);
+},[[0,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=ActivityOrder.js.map

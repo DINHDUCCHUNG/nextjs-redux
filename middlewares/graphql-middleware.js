@@ -3,7 +3,7 @@ import fetch from 'isomorphic-unfetch'
 const graphql_middleware = url => {
   return store => {
     return next => {
-      return action => {
+      return async action => {
         if (typeof action.payload === 'object' && action.payload.query) {
           // allow call normal action
           next(action)
@@ -14,7 +14,7 @@ const graphql_middleware = url => {
           }
 
           // if (localStorage.getItem('token')) headers['token'] = localStorage.getItem('token')
-          fetch(`${url}/graphql`, {
+          await fetch(`${url}/graphql`, {
             method: 'POST',
             headers,
             body: JSON.stringify({
@@ -23,17 +23,15 @@ const graphql_middleware = url => {
             })
           })
             .then(r => {
-              console.log('r: ', r)
               return r.json()
             })
-            .then(data => {
+            .then(async data => {
               const result = data.data
-              console.log('result: ', result)
               for (var key in result) {
                 if (result.hasOwnProperty(key)) {
                   if (result[key].success === false) {
                     alert(result[key].messages)
-                    store.dispatch({
+                    await store.dispatch({
                       type: [
                         action.type,
                         key
@@ -46,7 +44,6 @@ const graphql_middleware = url => {
                       old_action: action
                     })
                   } else {
-                    console.log('store: ', store)
                     store.dispatch({
                       type: [
                         action.type,

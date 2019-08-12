@@ -6,30 +6,37 @@ import { fetch_activity } from '../actions/Activity'
 import Activity from '../components/Activity/Activity'
 
 class Index extends React.Component {
-  static getInitialProps({ reduxStore }) {
+  static async getInitialProps({ store, req }) {
     // reduxStore.dispatch(serverRenderClock(isServer))
-    reduxStore.dispatch(fetch_activity())
-    console.log('hello')
-    return {}
+    const isServer = !!req
+    if (!!req) await store.dispatch(fetch_activity())
+    return { isServer }
   }
 
-  // componentDidMount() {
-  //   this.props.fetchActivity()
-  // }
+  componentDidMount() {
+    if (!this.props.isServer) this.props.fetchActivity()
+  }
 
   // componentWillUnmount() {
   //   clearInterval(this.timer)
   // }
 
   render() {
+    //  console.log(this.props.activity)
     return (
       <div>
-        <Link href="/activity-order/ActivityOrder" as="/activity-order/ActivityOrder" passHref>
+        <Link href="/activity-order/ActivityOrder" as="/activityOrder">
           <h1>Go to activity order</h1>
         </Link>
         <Activity />
       </div>
     )
+  }
+}
+
+const mapStateToProps = (state, ownProps) => {
+  return {
+    activity: state.activity
   }
 }
 
@@ -42,6 +49,6 @@ const mapDispatchToProps = dispatch => {
 }
 
 export default connect(
-  null,
+  mapStateToProps,
   mapDispatchToProps
 )(Index)

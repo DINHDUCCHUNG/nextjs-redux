@@ -46,6 +46,7 @@ const mapStateToProps = state => {
     activity: state.activity
   }
 }
+
 export default connect(
   mapStateToProps,
   null

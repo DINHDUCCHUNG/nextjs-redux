@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -155,7 +155,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! moment */ "moment");
 /* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(moment__WEBPACK_IMPORTED_MODULE_5__);
 
-var _jsxFileName = "/home/pilot/JS/with-redux-thunk-app/components/ActivityOrder/ActivityOrderComponent.js";
 
 
 
@@ -175,108 +174,32 @@ const ActivityOrder = props => {
       activityOrderCode: props.activityOrderCode
     }));
   }, [props.activityOrderCode]);
-  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22
-    },
-    __self: undefined
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "layout-content"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "layout-content",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23
-    },
-    __self: undefined
+    className: "container-fluid flex-grow-1 container-p-y"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "container-fluid flex-grow-1 container-p-y",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24
-    },
-    __self: undefined
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "activity-order-code",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25
-    },
-    __self: undefined
+    className: "activity-order-code"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("table", {
-    className: "table table-striped",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26
-    },
-    __self: undefined
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("thead", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27
-    },
-    __self: undefined
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("tr", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28
-    },
-    __self: undefined
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("th", {
+    className: "table table-striped"
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("thead", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("tr", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("th", {
     scope: "col",
     style: {
       width: '70%'
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29
-    },
-    __self: undefined
+    }
   }, "Ho\u1EA1t \u0111\u1ED9ng"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("th", {
     scope: "col",
     style: {
       width: '30%'
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32
-    },
-    __self: undefined
-  }, "Th\u1EDDi gian"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("tbody", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37
-    },
-    __self: undefined
-  }, state.activityOrderCode.map((act, index) => {
+    }
+  }, "Th\u1EDDi gian"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("tbody", null, state.activityOrderCode.map((act, index) => {
     return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("tr", {
-      key: act.id,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 40
-      },
-      __self: undefined
-    }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("td", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 41
-      },
-      __self: undefined
-    }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
+      key: act.id
+    }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("td", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
       dangerouslySetInnerHTML: {
         __html: act.message
-      },
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 42
-      },
-      __self: undefined
-    })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("td", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 48
-      },
-      __self: undefined
-    }, moment__WEBPACK_IMPORTED_MODULE_5___default()(act.createdAt).format('hh:mm [ngày] LL')));
+      }
+    })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("td", null, moment__WEBPACK_IMPORTED_MODULE_5___default()(act.createdAt).format('hh:mm [ngày] LL')));
   })))))));
 };
 
@@ -427,38 +350,25 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_ActivityOrder_ActivityOrderComponent__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/ActivityOrder/ActivityOrderComponent */ "./components/ActivityOrder/ActivityOrderComponent.js");
-var _jsxFileName = "/home/pilot/JS/with-redux-thunk-app/pages/activity-order/ActivityOrder.js";
 
 
 
 const ActivityOrder = props => {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: undefined
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ActivityOrder_ActivityOrderComponent__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: undefined
-  }));
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ActivityOrder_ActivityOrderComponent__WEBPACK_IMPORTED_MODULE_1__["default"], null));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (ActivityOrder);
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!*****************************************************!*\
   !*** multi ./pages/activity-order/ActivityOrder.js ***!
   \*****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/pilot/JS/with-redux-thunk-app/pages/activity-order/ActivityOrder.js */"./pages/activity-order/ActivityOrder.js");
+module.exports = __webpack_require__(/*! d:\OJT\nextjs-redux\pages\activity-order\ActivityOrder.js */"./pages/activity-order/ActivityOrder.js");
 
 
 /***/ }),
